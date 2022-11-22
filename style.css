@@ -238,23 +238,26 @@
   }
   .button-small {
     font-size: 13px;
+    margin-right: -27px;
   }
   .hero-heading {
-    margin-left: -316px;
+    margin-left: -284px;
     margin-top: -71px;
     font-size: 27px;
   }
   .hero-description {
-    margin-left: -290px;
+    margin-left: -273px;
     font-size: 12px;
     margin-top: 52px;
   }
   .button-large {
     font-size: 17px;
-    margin-left: -273px;
+    margin-left: -249px;
     margin-top: 71px;
   }
   .imagg {
     background-image: url(./download.png);
+    height: 80vh;
   }
 }
+  
