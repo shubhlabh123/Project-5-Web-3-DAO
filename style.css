@@ -1,0 +1,260 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.nava {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 26px 108px 11px 74px;
+  width: 100vw;
+}
+.logo {
+  height: 33px;
+}
+.list {
+  list-style: none;
+  display: flex;
+  margin-top: 10px;
+  margin-left: -255px;
+  font-size: 15px;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+.inner {
+  position: absolute;
+  top: 269px;
+  left: 310px;
+}
+/* .hero img {
+  width: 1350px;
+} */
+.imagg {
+  background-image: url(./assets/bg.png);
+  width: 100vw;
+  height: 68vw;
+  background-repeat: no-repeat;
+}
+.hero-heading {
+  font-size: 74px;
+  color: white;
+  font-family: "Montserrat";
+  line-height: 1.2;
+  text-align: center;
+}
+.hero-description {
+  color: white;
+  font-size: 29px;
+  font-family: "poppins";
+  margin-left: 78px;
+  text-shadow: 0px 0px 2px;
+}
+.button-large {
+  margin-top: 50px;
+  font-size: 29px;
+  font-family: "Poppins";
+  color: white;
+  background-color: rgb(204, 0, 211);
+  padding: 13px 23px;
+  margin-left: 216px;
+  border-radius: 15px;
+  border-color: rgb(204, 0, 211);
+  font-weight: 500;
+}
+.button-small {
+  background-color: rgba(219, 21, 226, 0.829);
+  padding: 8px 32px;
+  font-size: 15px;
+  font-family: "Poppins";
+  color: white;
+  border-radius: 9px;
+  margin-top: -8px;
+  font-weight: 600;
+}
+.list :nth-child(1) {
+  margin-right: 7px;
+  border-left: 2px solid grey;
+  height: 50px;
+  padding: 0px 0px 0px 50px;
+  margin-top: -4px;
+}
+
+.list :nth-child(2) {
+  margin-right: 64px;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+.list :nth-child(3) {
+  margin-right: 64px;
+  margin-top: -4px;
+}
+.list :nth-child(4) {
+  margin-right: 64px;
+  margin-top: -4px;
+}
+.list :nth-child(5) {
+  margin-right: 64px;
+  margin-top: -4px;
+}
+.list :nth-child(6) {
+  margin-right: 64px;
+  margin-top: -4px;
+}
+@media only screen and (max-width: 1256px) {
+  .list {
+    margin-left: 34px;
+  }
+  .button-small {
+    font-size: 9px;
+    padding: 5px 20px;
+  }
+}
+@media only screen and (max-width: 1109px) {
+  .hero-heading {
+    font-size: 54px;
+  }
+  .logo {
+    height: 27px;
+  }
+  .hero-description {
+    font-size: 23px;
+  }
+  .button-large {
+    font-size: 20px;
+    margin-left: 108px;
+  }
+  .imagg {
+    height: 102vw;
+  }
+}
+@media only screen and (max-width: 967px) {
+  .list {
+    margin-left: 3px;
+  }
+  .list :nth-child(1) {
+    border: none;
+  }
+}
+@media only screen and (max-width: 932px) {
+  .list {
+    margin-left: -44px;
+  }
+  .button-small {
+    margin-left: -39px;
+  }
+}
+@media only screen and (max-width: 913px) {
+  .hero-heading {
+    font-size: 44px;
+    margin-left: -92px;
+  }
+  .hero-description {
+    font-size: 17px;
+    margin-top: 32px;
+    margin-left: -26px;
+  }
+  .button-large {
+    font-size: 18px;
+    margin-left: 41px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .list :nth-child(2) {
+    margin-right: 8px;
+  }
+
+  .list :nth-child(3) {
+    margin-right: 8px;
+  }
+  .list :nth-child(4) {
+    margin-right: 8px;
+  }
+  .list :nth-child(5) {
+    margin-right: 8px;
+  }
+  .list :nth-child(6) {
+    margin-right: 8px;
+  }
+}
+@media only screen and (max-width: 783px) {
+  .button-small {
+    margin-left: 59px;
+  }
+}
+@media only screen and (max-width: 699px) {
+  .hero-heading {
+    font-size: 40px;
+    margin-left: -181px;
+    margin-top: 36px;
+  }
+  .hero-description {
+    font-size: 14px;
+    margin-top: 32px;
+    margin-left: -112px;
+  }
+  .button-large {
+    font-size: 15px;
+    margin-left: -67px;
+    margin-top: 52px;
+  }
+  .list {
+    display: none;
+  }
+  .imagg {
+    height: 109vw;
+  }
+}
+@media only screen and (max-width: 568px) {
+  .hero-heading {
+    font-size: 45px;
+    margin-left: -269px;
+    margin-top: -25px;
+  }
+  .hero-description {
+    font-size: 17px;
+    margin-top: 35px;
+    margin-left: -226px;
+  }
+  .button-large {
+    font-size: 19px;
+    margin-left: -148px;
+    margin-top: 69px;
+  }
+  .imagg {
+    height: 125vw;
+  }
+}
+@media only screen and (max-width: 362px) {
+  .logo {
+    margin-left: -58px;
+    margin-top: -5px;
+  }
+  .nava {
+    padding-right: 79px;
+    padding-top: 39px;
+    padding-bottom: 25px;
+  }
+  .button-small {
+    font-size: 13px;
+  }
+  .hero-heading {
+    margin-left: -316px;
+    margin-top: -71px;
+    font-size: 27px;
+  }
+  .hero-description {
+    margin-left: -290px;
+    font-size: 12px;
+    margin-top: 52px;
+  }
+  .button-large {
+    font-size: 17px;
+    margin-left: -273px;
+    margin-top: 71px;
+  }
+  .imagg {
+    background-image: url(./download.png);
+  }
+}
